@@ -1,0 +1,19 @@
+@import "bootstrap/bootstrap";
+
+
+main {
+  @include make-md-column(9);
+}
+
+aside {
+  @include make-md-column(3);
+  background: $gray-lighter;
+}
+
+@import "layout";
+@import "top";
+@import "about";
+@import "prospectus";
+@import "vision";
+@import "support";
+
